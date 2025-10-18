@@ -12,6 +12,10 @@ body {
     color: #333;
 }
 
+nav{
+    font-size:;
+}
+
 nav.main-nav {
     background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
     color: #fff;
@@ -23,6 +27,8 @@ nav.main-nav {
     padding: 0 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 nav.main-nav a:hover {
@@ -235,4 +241,53 @@ button:hover {
 
 .about-intro h4 span {
     color: #5a61d6;
+}
+
+/* ================== FOOTER STYLING ================== */
+.footer {
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 12px 12px 0 0;
+  margin-top: 60px;
+}
+
+.footer h3 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #e8e8e8;
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffeb3b;
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+  color: #ddd;
+  margin-top: 20px;
+}
+
+.footer-bottom span {
+  color: #ffeb3b;
+  font-weight: 600;
 }
