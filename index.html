@@ -1,51 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes Hub</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-        <nav class="main-nav">
-            <h1>Notes Hub</h1>
-            <div class="nav">
-            <a href="index.html">Home</a>
-            <a href="./about/about.html">About</a>
-            <a href="./contact/contact.html" target="_blank">Contact</a>
-            <a href="services.html">Services</a>
-            </div>
-        </nav>
-
-        <div class="notes container">
-            <h1>Notes Hub</h1>
-            <p>Here you will get all Notes In Proper Format</p>
-            <hr style="border: 2px solid blue; margin: 16px 0;">
-            <section class="note-list">
-                <div class="note">
-                    <h2>Schools Material</h2>
-                    <div class="note-content">
-                    <p>Here you can find notes related to different school subjects . In proper format with proper indentation and styling.</p>
-                    <a href="./notes/schools/mainschool.html" class="btn">Read More</a>
-                    </div>
-                </div>
-
-            <hr style="border: 1px solid blue; margin: 1px 0;">
-
-                <div class="note">
-                    <h2>College Material</h2>
-                    <div class="note-content">
-                    <p>Here you can find notes related to different semesters. In proper format with proper indentation and styling.</p>
-                    <a href="./notes/college/maincollege.html" class="btn">Read More</a>
-                    </div>
-                </div>
-            </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Your ultimate destination for organized school and college study materials"
+    />
+    <title>Notes Hub - Your Study Companion</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-wrapper">
+      <nav class="primary-navigation">
+        <div class="brand-logo">
+          <h1 class="site-title">Notes Hub</h1>
         </div>
+        <ul class="navigation-menu">
+          <li><a href="index.html" class="nav-link active-page">Home</a></li>
+          <li><a href="./about/about.html" class="nav-link">About</a></li>
+          <li><a href="./contact/contact.html" class="nav-link">Contact</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <footer>
-            <p>&copy; 2025  Notes Hub. All rights reserved.</p>
-            <p>Created by Nikhil, Gaurav, Devansh </p>
-        </footer>
-</body>
+    <main class="main-content-wrapper">
+      <section class="hero-section">
+        <div class="hero-content">
+          <h2 class="page-heading">Welcome to Notes Hub</h2>
+          <p class="page-description">
+            Your go-to platform for comprehensive study materials, organized by
+            category and presented in a clean, easy-to-read format
+          </p>
+        </div>
+        <div class="decorative-divider"></div>
+      </section>
+
+      <section class="notes-grid-section">
+        <div class="notes-grid">
+          <article class="note-card school-card">
+            <div class="card-icon-wrapper">
+              <div class="card-icon">📚</div>
+            </div>
+            <div class="card-content">
+              <h3 class="card-heading">School Materials</h3>
+              <p class="card-description">
+                Access structured notes for various school subjects with
+                organized content, examples, and explanations designed for quick
+                learning
+              </p>
+              <div class="card-features">
+                <span class="feature-badge">Well-Organized</span>
+                <span class="feature-badge">Easy Format</span>
+              </div>
+            </div>
+            <div class="card-action">
+              <a
+                href="./notes/schools/mainschool.html"
+                class="action-button primary-btn"
+              >
+                Explore School Notes
+                <span class="btn-arrow">→</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="note-card college-card">
+            <div class="card-icon-wrapper">
+              <div class="card-icon">🎓</div>
+            </div>
+            <div class="card-content">
+              <h3 class="card-heading">College Materials</h3>
+              <p class="card-description">
+                Find detailed semester-wise notes covering core concepts,
+                practical examples, and exam-focused content for all subjects
+              </p>
+              <div class="card-features">
+                <span class="feature-badge">Semester-Wise</span>
+                <span class="feature-badge">Detailed</span>
+              </div>
+            </div>
+            <div class="card-action">
+              <a
+                href="./notes/college/maincollege.html"
+                class="action-button primary-btn"
+              >
+                Explore College Notes
+                <span class="btn-arrow">→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="info-banner">
+        <div class="banner-content">
+          <h3 class="banner-heading">Why Choose Notes Hub?</h3>
+          <div class="benefits-grid">
+            <div class="benefit-item">
+              <span class="benefit-icon">✓</span>
+              <p>Clean formatting</p>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">✓</span>
+              <p>Regular updates</p>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">✓</span>
+              <p>Easy navigation</p>
+            </div>
+            <div class="benefit-item">
+              <span class="benefit-icon">✓</span>
+              <p>Free access</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p class="footer-copyright">
+          &copy; 2025 Notes Hub. All rights reserved.
+        </p>
+        <p class="footer-credits">
+          Crafted with dedication by Gaurav , Nilhil & Devansh
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
