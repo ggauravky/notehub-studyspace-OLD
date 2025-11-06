@@ -34,7 +34,7 @@ Every setback is a setup for a comeback! This restart represents our commitment 
 - Creating something we're truly proud of
 - Growing as developers together
 
-**"The best time to plant a tree was 20 years ago. The second best time is now."** 
+**"The best time to plant a tree was 20 years ago. The second best time is now."**
 
 Let's build something amazing! 🌟
 
