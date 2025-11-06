@@ -1,3 +1,45 @@
+# ⚠️ Project Archived - Fresh Start Ahead! 🚀
+
+> **Note:** This repository has been archived and is no longer actively maintained.
+
+## 🔄 Why We're Starting Fresh
+
+After careful consideration and reflection, our team has decided to rebuild this project from the ground up. While this version served as a valuable learning experience, we identified several areas that needed improvement:
+
+- Better project structure and file management
+- Clearer vision and goals
+- Improved organization and planning
+- More robust foundation for scalability
+
+## 🎯 New Repository
+
+We're excited to announce that development continues with renewed energy and better planning in our new repository:
+
+**➡️ [NoteHub-studyspace (New)](https://github.com/ggauravky/NoteHub-studyspace)**
+
+## 👥 Team Members
+
+This project is a collaborative effort by:
+
+- **Lead:** [@ggauravky](https://github.com/ggauravky)
+- **Core Members:**
+  - [@the-nikhilcodes](https://github.com/the-nikhilcodes)
+  - [@ydevansh](https://github.com/ydevansh)
+
+## 💡 Lessons Learned
+
+Every setback is a setup for a comeback! This restart represents our commitment to:
+- Learning from our experiences
+- Building better systems
+- Creating something we're truly proud of
+- Growing as developers together
+
+**"The best time to plant a tree was 20 years ago. The second best time is now."** 
+
+Let's build something amazing! 🌟
+
+---
+
 # Notes Hub
 
 A small, responsive static website that organizes and provides study notes in a simple, user-friendly layout.
